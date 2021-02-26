@@ -1,0 +1,228 @@
+body{
+    background-image: url(forest.jfif);
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(0, 255, 21);
+}
+.popbutton{
+  position: absolute;
+  overflow: auto;
+  top: 10%;
+  height: 30px;
+  width: 150px;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  margin-left: -60px;
+  box-shadow: 0 0 55px black;
+
+}
+
+.input1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  height: 500px;
+  width: 400px;
+  backdrop-filter: blur(5px);
+  overflow:auto;
+  border-width: 5px;
+  border-color: white;
+  box-shadow: 0 0 55px black;
+}
+
+.list1{
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 55%;
+  right: 0;
+  height: fit-content;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding-right: 80px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  word-wrap: break-word;
+  scroll-behavior: auto;
+}
+.list2{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 65%;
+  right: 0;
+  height: fit-content;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  word-wrap: break-word;
+}
+.input2{
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  margin-right: -350px;
+  margin-top: -200px;
+  height: 500px;
+  width: 400px;
+  backdrop-filter: blur(5px);
+  overflow:auto;
+  box-shadow: 0 0 55px black;
+
+}
+.input3{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  margin-left: -350px;
+  margin-top: -200px;
+  height: 500px;
+  width: 400px;
+  backdrop-filter: blur(5px);
+  overflow:auto;
+  box-shadow: 0 0 55px black;
+
+}
+.list3{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 65%;
+  right: 0;
+  height: fit-content;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  word-wrap: break-word;
+}
+.input1 :hover{
+  transform: scale(1.1);
+}
+.input2 :hover{
+  transform: scale(1.1);
+}.input3 :hover{
+  transform: scale(1.1);
+}
+
+ .del{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: 5px;
+  bottom: 5px;
+  margin: auto;
+  left: 270px;
+}
+
+.tick{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  bottom: 5px;
+  margin: auto;
+  left: 240px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  background-repeat: no-repeat;
+  border: 1px solid #888;
+  box-shadow: 0 0 55px black;
+
+  height: 40%;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  position: relative;
+
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.text{
+ margin-top: 15px;
+}
+.date{
+  margin-top: 15px;
+}
+.button{
+  margin-top: 15px;
+ cursor: pointer;
+ background-color: rgb(0, 255, 42);
+ color: white;
+}
+.modal-content h1{
+  margin-top: -10px;
+  color: rgb(0, 255, 42);
+  top: 30%;
+  padding-left: 55px;
+}
+
+.divider{
+  margin-top: -10px;
+  background-color: rgb(0, 255, 42);
+  width: 100%;
+  height: 5px;
+
+}
+.div1{
+
+ background-color: white;
+ height: 5px;
+ width: 400px;
+}
+.div2{
+  background-color: white;
+ height: 5px;
+ width: 400px;
+}
+.div3{
+  background-color: white;
+  height: 5px;
+  width: 400px;
+}
